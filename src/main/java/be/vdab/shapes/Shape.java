@@ -11,4 +11,6 @@ public abstract class Shape {
     public String toString() {
         return "Shape '" + name + "'";
     }
+
+    abstract double perimeter();
 }
