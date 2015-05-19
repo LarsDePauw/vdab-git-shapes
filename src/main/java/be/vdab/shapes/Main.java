@@ -17,8 +17,8 @@ package be.vdab.shapes;
  */
 public class Main {
     private static Shape[] shapes = {
-        new Rectangle("Rectangle one"),
-        new Triangle("Triangle one")
+        new Rectangle("Rectangle one", 100, 50),
+        new Triangle("Triangle one", new double[] {10, 20, 30})
     };
 
     public static void main(String[] args) {

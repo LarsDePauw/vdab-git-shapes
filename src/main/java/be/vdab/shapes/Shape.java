@@ -9,7 +9,7 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return "Shape '" + name + "'";
+        return "Shape '" + name + "' has a perimter of " + perimeter() + " units";
     }
 
     abstract double perimeter();

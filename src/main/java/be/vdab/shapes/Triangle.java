@@ -1,12 +1,19 @@
 package be.vdab.shapes;
 
 public class Triangle extends Shape {
-    public Triangle(String name) {
+    private double[] sides;
+
+    public Triangle(String name, double[] sides) {
         super(name);
+        this.sides = sides;
     }
 
     @Override
     double perimeter() {
-        return 0;
+        double perimter = 0;
+        for (double side : sides) {
+            perimter += side;
+        }
+        return perimter;
     }
 }
