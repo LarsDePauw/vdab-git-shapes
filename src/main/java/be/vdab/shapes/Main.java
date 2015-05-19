@@ -7,6 +7,8 @@ package be.vdab.shapes;
  *  - Team member one:<br/>
  *      * Add a new abstract method "double Shape.area()". Make sure all subclasses implement the contract.<br/>
  *      * Modify Shape.toString() to also print out the area of the shape ("Shape 'Triangle' has an area of 12 square units")<br/><br/>
+ *      
+ *      
  *  - Team member two:<br/>
  *      * Add a new abstract method "double Shape.perimeter()". Make sure all subclasses implement the contract.<br/>
  *      * Modify Shape.toString() to also print out the perimeter of the shape ("Shape 'Triangle has a perimeter of 16 units")<br/><br/>
@@ -17,8 +19,8 @@ package be.vdab.shapes;
  */
 public class Main {
     private static Shape[] shapes = {
-        new Rectangle("Rectangle one", 100, 50),
-        new Triangle("Triangle one", new double[] {10, 20, 30})
+        new Rectangle("Rectangle one", 5, 7),
+        new Triangle("Triangle one", 4, 8)
     };
 
     public static void main(String[] args) {
